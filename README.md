@@ -1,4 +1,5 @@
 # Code for Tutorial: How to load data from a file in Next.js
+You can find the tutorial [here](https://vercel.com/guides/loading-static-file-nextjs-api-route)
 ## Purpose
 Sometimes, you have data that will not change regularly and that will be used by multiple pages in your site. This is often stored in `json` format in static files. You could load them directly from your front-end with a `GET` request by exposing these files to the application's public folder. However, you may not want to do that for security reasons. A possible solution is to:
 
