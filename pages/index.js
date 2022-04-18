@@ -10,10 +10,10 @@ export default function Index() {
 
   return (
     <div>
-      <h1>My Phone from file</h1>
+      <h1>My Framework from file</h1>
       <ul>
-        <li>Brand: {data.record.brand}</li>
-        <li>Model: {data.record.model}</li>
+        <li>Name: {data.record.name}</li>
+        <li>Language: {data.record.language}</li>
       </ul>
     </div>
   );
